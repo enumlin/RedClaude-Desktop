@@ -1,0 +1,32 @@
+RedClaude — Autonomous Pentest Agent
+=====================================
+
+Este produto inclui orquestração original (o motor cognitivo em CLAUDE.md e phases/),
+licenciada sob os termos em LICENSE.
+
+Componentes de terceiros NÃO redistribuídos neste repositório (baixados pelo instalador
+a partir das fontes oficiais), creditados aqui conforme suas licenças:
+
+1. cybersecurity-skills
+   Fonte:   https://github.com/mukul975/Anthropic-Cybersecurity-Skills
+   Licença: Apache License 2.0
+   Uso:     o install.sh registra o marketplace e instala o plugin; as skills NÃO são
+            modificadas nem copiadas para este repositório.
+
+2. ptai (Autonomous AI pentesting MCP server)
+   Fonte:   PyPI (pipx install ptai)
+   Licença: conforme o projeto upstream
+   Uso:     instalado via pipx; configurado como servidor MCP.
+
+3. Claude Code / Claude Desktop
+   Fonte:   Anthropic
+   Licença: Anthropic Consumer/Commercial Terms
+   Uso:     plataforma host; não redistribuída.
+
+4. (Opcional) claude-desktop-debian
+   Fonte:   https://github.com/aaddrick/claude-desktop-debian
+   Licença: MIT / Apache 2.0
+   Uso:     referência opcional para rodar Claude Desktop no Linux.
+
+Marcas: "Claude" e "Anthropic" são marcas da Anthropic. Este projeto é independente e
+NÃO é endossado pela Anthropic.

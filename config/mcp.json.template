@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "pentest-ai": {
+      "command": "__PTAI_PATH__",
+      "args": ["mcp"],
+      "env": {
+        "PTAI_PRICE_LIMIT": "0",
+        "PTAI_CONSENT_GIVEN": "1"
+      }
+    }
+  }
+}

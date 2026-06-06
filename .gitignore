@@ -40,3 +40,16 @@ result-*
 
 # Wrangler (Cloudflare Worker dev/deploy cache)
 worker/.wrangler/
+
+# ===== RedClaude: loot de engajamentos reais — NUNCA versionar =====
+engagements/*
+!engagements/_TEMPLATE/
+!engagements/_TEMPLATE/**
+.mcp.json
+.claude/settings.local.json
+*.ntds
+*.dit
+hashes.txt
+*.ccache
+.env
+**/.credentials.json
